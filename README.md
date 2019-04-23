@@ -1,5 +1,8 @@
 # httpDebuger
 This is a tiny CLI tool used for debug errors in the development of REST API
+
+For long I had used chrome estension to debug API, but it is incomfortable to send request and anysis response in the browser, so I write this tiny tool. Its function , until now ,is enough to me, and I might extend its function like printing response header in the future. It use axios as its core. 
+
 In this tool, ***request.js*** is the core file, and the scenarios we design for debuging our app is saved in the files under the folder named ***config***. ***config.js*** in root folder has a field called *judged*, and it is the boolean field your server returned to know if the operation you just give it has successed.
 
 In CLI, you can run it as follow
