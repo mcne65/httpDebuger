@@ -43,4 +43,11 @@ You'd better directly modify the ***blog.js*** to your scenarios, and copy and m
 
 ***argument*** is the key of each test object, here, *default* , *wrongid* and *noid*. It defaults to '*default*'. If argument is '*loop*', it will run all the test of this API block in loop way(one by one).
 
+In the section file
+- *description* is used to describe the API
+- *url* is the API itself, here you can use etheir URL object or directly write your api url
+- *method* is the http verb of your API
+- *data* is an object, which will sent to server in *POST PUT ...* request
+- *expected* is a boolean, and if this API test will return *false* in you design, fill in *false*, and vice versa. 
+
 Okay, that's all.
