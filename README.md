@@ -4,7 +4,9 @@ In this tool, ***request.js*** is the core file, and the scenarios we design for
 
 In CLI, you can run it as follow
 
+
 `node request <section> <command> <argument>`
+
 
 ***seciton*** is the name of your file in the config folder, it is expected that you put different part of your APIs into different file to organize them in a clean way.
 
